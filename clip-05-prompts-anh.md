@@ -82,7 +82,7 @@ Dấu ✗ đỏ, dấu ✓ xanh, tia lửa, hiệu ứng "bùm", dấu "!" bật
 
 ## Checklist ảnh
 - [x] `dua_chef.png` (đã có, đã tách nền)
-- [ ] A1 `dua_chef_surprised.png`
+- [x] A1 `dua_chef_surprised.png`
 - [ ] A2 `dua_chef_holdbowl.png`
 - [ ] A3 `dua_chef_checkbox.png`
 - [ ] A4 `dua_chef_ceramic.png`
