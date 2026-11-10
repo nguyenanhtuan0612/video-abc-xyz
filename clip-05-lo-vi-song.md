@@ -15,10 +15,10 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Dưa đội mũ đ�
 |---|---|---|---|---|
 | 1 | 0-3 | Dưa (chef) ngạc nhiên, đứng cạnh lò vi sóng, dấu "!" bật lên | "Đừng bỏ 4 thứ này vào lò vi sóng!" | Chữ to: "4 THỨ CẤM BỎ LÒ VI SÓNG" · SFX: ting cảnh báo |
 | 2 | 3-7 | Dưa cầm bát cơm nguội, mắt tròn hứng khởi, lò bên cạnh | "Hâm đồ cho nhanh, nhưng bỏ nhầm là nổ lò đấy." | SFX: tiếng "ting" lò |
-| 3 | 7-14 | Cận: giấy bạc và cái thìa cạnh lò, tia lửa nhỏ, dấu ✗ | "Một: đồ kim loại. Giấy bạc, thìa, hộp có viền vàng. Sẽ phát tia lửa." | Chữ: "1. KIM LOẠI" · SFX: bzzt, ✗ stamp |
-| 4 | 14-21 | Quả trứng nguyên vỏ trong lò, vết nứt, dấu ✗ | "Hai: trứng nguyên vỏ. Hơi nước dồn lại, nổ tung." | Chữ: "2. TRỨNG NGUYÊN VỎ" · SFX: pop |
-| 5 | 21-28 | Hộp/chai đậy kín nắp, nắp bật tung, dấu ✗ | "Ba: hộp, chai đậy kín. Hơi nóng không thoát được, bật nắp văng ra." `[CẦN KIỂM CHỨNG]` | Chữ: "3. ĐẬY KÍN NẮP" · SFX: pop |
-| 6 | 28-35 | Hộp nhựa méo biến dạng, Dưa soi đáy hộp tìm ký hiệu | "Bốn: hộp nhựa không ghi dùng được cho lò vi sóng. Nhựa có thể chảy, biến dạng." `[CẦN KIỂM CHỨNG]` | Chữ: "4. NHỰA KHÔNG CÓ KÝ HIỆU" · SFX: ✗ stamp |
+| 3 | 7-14 | Cận: giấy bạc và cái thìa cạnh lò, tia lửa nhỏ, dấu ✗ | "1: đồ kim loại. Giấy bạc, thìa, bát có mạ vàng. Sẽ phát tia lửa." | Chữ: "1. KIM LOẠI" · SFX: bzzt, ✗ stamp |
+| 4 | 14-21 | Quả trứng nguyên vỏ trong lò, vết nứt, dấu ✗ | "2: trứng nguyên vỏ. Hơi nước dồn lại, nổ tung." | Chữ: "2. TRỨNG NGUYÊN VỎ" · SFX: pop |
+| 5 | 21-28 | Hộp/chai đậy kín nắp, nắp bật tung, dấu ✗ | "3: hộp, chai đậy kín. Hơi nóng không thoát được, bật nắp văng ra." `[CẦN KIỂM CHỨNG]` | Chữ: "3. ĐẬY KÍN NẮP" · SFX: pop |
+| 6 | 28-35 | Hộp nhựa méo biến dạng, Dưa soi đáy hộp tìm ký hiệu | "4: hộp nhựa không ghi dùng được cho lò vi sóng. Nhựa có thể chảy, biến dạng." `[CẦN KIỂM CHỨNG]` | Chữ: "4. NHỰA KHÔNG CÓ KÝ HIỆU" · SFX: ✗ stamp |
 | 7 | 35-40 | Dưa cười, bê bát sứ đậy hờ đĩa, dấu ✓ | "Cứ dùng bát sứ, thủy tinh chịu nhiệt, đậy hờ là yên tâm." | Chữ: "DÙNG BÁT SỨ / THỦY TINH" · SFX: ding |
 | 8 | 40-43 | Dưa vẫy tay, hai tay giơ như "lưu lại" | "Lưu lại kẻo quên nhé!" | Chữ: "LƯU LẠI" |
 
@@ -42,7 +42,7 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Dưa đội mũ đ�
 | Nhân vật | Dưa chef – cầm bát, soi đáy hộp | **Cần tạo** (Gemini) | 2, 6 |
 | Nền | Bếp đơn giản (kệ + tường kem) | **Cần tạo** | 1-8 |
 | Đạo cụ | Lò vi sóng (đóng, mở) | **Cần tạo** | 1-8 |
-| Đạo cụ | Giấy bạc, thìa, hộp viền vàng | **Cần tạo** | 3 |
+| Đạo cụ | Giấy bạc, thìa, bát có mạ vàng | **Cần tạo** | 3 |
 | Đạo cụ | Trứng nguyên, trứng nứt | **Cần tạo** | 4 |
 | Đạo cụ | Hộp/chai đậy kín, nắp bật | **Cần tạo** | 5 |
 | Đạo cụ | Hộp nhựa méo | **Cần tạo** | 6 |
