@@ -4,6 +4,11 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Dưa đội mũ đ�
 
 > Mọi ý trong kịch bản đánh dấu `[CẦN KIỂM CHỨNG]` phải đối chiếu với hướng dẫn nhà sản xuất hoặc nguồn an toàn thực phẩm trước khi đọc voice.
 
+## Hướng dựng (đã chốt)
+- Dựng **dạng tĩnh bằng Remotion**: ảnh tĩnh (nền, Dưa, đạo cụ, biểu tượng) + animation đơn giản (pop-in, rung, đóng dấu ✗/✓) + chữ + phụ đề. Không dùng image-to-video.
+- Remotion do Claude cài và render trong repo, bạn không cần tải về máy. Xuất MP4 1080x1920, 30fps.
+- Việc của bạn: tạo voice (`assets/audio/`) và nhạc nền (Suno), rồi xem bản render để góp ý.
+
 ## 1. Kịch bản
 
 | # | Giây | Hình | Voice | Chữ trên màn hình / SFX |
