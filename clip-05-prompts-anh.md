@@ -77,8 +77,19 @@ Cảnh 1 (Dưa ngạc nhiên cạnh lò) – tải kèm `dua_chef.png` → `asse
 Vertical 9:16 illustration. Same cat, same style, wearing a white chef hat and white chef coat, surprised with both paws on cheeks, standing next to a cute retro microwave oven on a wooden kitchen counter. Setting: soft cream kitchen wall, one counter, one microwave. Soft pastel flat background. Leave empty space at the top and the bottom for captions. No text, no watermark.
 ```
 
-## E. Tự vẽ SVG, không cần AI
-Dấu ✗ đỏ, dấu ✓ xanh, tia lửa, hiệu ứng "bùm", dấu "!" bật lên, hơi nước. Làm khi dựng; mình có thể vẽ sẵn SVG nếu bạn cần.
+## E. Biểu tượng UI (vẽ bằng Gemini cho đồng bộ phong cách)
+
+Tạo một bảng, nền trắng trơn, rồi cắt và tách nền từng món → lưu vào `assets/ui/`.
+
+```
+A cute flat 2D sticker sheet of 8 separate icons arranged in a grid with wide spacing, each fully separated: (1) a big red cross mark symbol with rounded thick strokes, (2) a big green check mark symbol with rounded thick strokes, (3) a cluster of small yellow-orange electric sparks, (4) a comic "boom" explosion burst in orange and yellow with a cute puff of smoke, (5) a small red exclamation mark symbol inside a speech-bubble-like starburst, (6) three small curly white steam puffs, (7) a pink heart, (8) a yellow sparkle star. Thick dark-brown outline, soft pastel colors, soft peach shading, clean simple, plain solid white background, no letters, no words, no watermark.
+```
+
+Nếu bảng chưa ưng, tạo riêng từng biểu tượng:
+```
+A cute flat 2D icon of [BIỂU TƯỢNG], thick dark-brown outline, soft pastel colors, soft peach shading, clean simple, plain solid white background, centered, no letters, no words, no watermark.
+```
+`[BIỂU TƯỢNG]`: a big red cross mark symbol · a big green check mark symbol · small yellow electric sparks · a comic boom explosion burst with smoke puffs · a red exclamation mark in a starburst
 
 ## Checklist ảnh
 - [x] `dua_chef.png` (đã có, đã tách nền)
@@ -88,4 +99,4 @@ Dấu ✗ đỏ, dấu ✓ xanh, tia lửa, hiệu ứng "bùm", dấu "!" bật
 - [x] A4 `dua_chef_ceramic.png`
 - [x] B1 `bg_bep.png`
 - [x] C: đã tách vào `assets/props/` (microwave_closed, microwave_open, foil, spoon, bowl_goldrim, egg_whole, egg_cracked, box_sealed, box_popped, box_warped, bowl_ceramic, rice_bowl)
-- [ ] E: SVG ✗, ✓, tia lửa, bùm
+- [ ] E: bảng biểu tượng (✗, ✓, tia lửa, bùm, dấu !, hơi nước) → `assets/ui/`
