@@ -87,5 +87,5 @@ Dấu ✗ đỏ, dấu ✓ xanh, tia lửa, hiệu ứng "bùm", dấu "!" bật
 - [ ] A3 `dua_chef_checkbox.png`
 - [ ] A4 `dua_chef_ceramic.png`
 - [ ] B1 `bg_bep.png`
-- [ ] C: microwave_closed, microwave_open, foil_spoon, egg_whole, egg_cracked, box_sealed, box_popped, box_warped, bowl_ceramic, rice_bowl
+- [x] C: đã tách vào `assets/props/` (microwave_closed, microwave_open, foil, spoon, bowl_goldrim, egg_whole, egg_cracked, box_sealed, box_popped, box_warped, bowl_ceramic, rice_bowl)
 - [ ] E: SVG ✗, ✓, tia lửa, bùm
