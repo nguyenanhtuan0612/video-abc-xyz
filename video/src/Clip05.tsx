@@ -1,13 +1,16 @@
 import React from "react";
 import {
-  AbsoluteFill, Audio, Img, Sequence, interpolate, spring,
+  AbsoluteFill, Audio, Easing, Img, Sequence, interpolate, spring,
   staticFile, useCurrentFrame, useVideoConfig,
 } from "remotion";
 import {
-  COLORS, HEIGHT, Item, MUSIC_FILE, MUSIC_VOLUME, SCENES, Scene, VOICE_FILE, WIDTH,
+  CARD, COLORS, HEIGHT, Item, MUSIC_FILE, MUSIC_VOLUME, SCENES, Scene, VOICE_FILE, WIDTH,
 } from "./config";
 
 const FONT = `"Baloo 2", "Nunito", "Be Vietnam Pro", "Segoe UI", "Helvetica Neue", Arial, "DejaVu Sans", sans-serif`;
+
+const inRange = (r: [number, number][] | undefined, sec: number) =>
+  !!r && r.some(([a, b]) => sec >= a && sec < b);
 
 const ItemView: React.FC<{ it: Item }> = ({ it }) => {
   const frame = useCurrentFrame();
@@ -17,8 +20,10 @@ const ItemView: React.FC<{ it: Item }> = ({ it }) => {
   if (frame < d || frame >= hide) return null;
   const t = frame - d;
   const anim = it.anim ?? "pop";
+  const anchor = it.anchor ?? "bottom";
 
-  let scale = 1, opacity = 1, rot = it.rot ?? 0, dx = 0, origin = "50% 100%";
+  let scale = 1, opacity = 1, rot = it.rot ?? 0, dx = 0;
+  let cx = it.x, cy = it.y, w = it.w;
   if (anim === "pop" || anim === "shake" || anim === "flicker") {
     scale = spring({ frame: t, fps, config: { damping: 9, stiffness: 140 } });
   }
@@ -28,25 +33,56 @@ const ItemView: React.FC<{ it: Item }> = ({ it }) => {
     const s = spring({ frame: t, fps, config: { damping: 12, stiffness: 220 } });
     scale = interpolate(s, [0, 1], [2.6, 1]);
     opacity = interpolate(t, [0, 4], [0, 1], { extrapolateRight: "clamp" });
-    origin = "50% 50%";
+  }
+  if (inRange(it.shake, frame / fps)) dx += Math.sin(frame * 2.2) * 8;
+
+  // bay vào lò
+  if (it.flyAt !== undefined && it.flyTo) {
+    const f0 = Math.round(it.flyAt * fps);
+    const dur = Math.max(1, Math.round((it.flyDur ?? 0.5) * fps));
+    if (frame >= f0) {
+      const p = (frame - f0) / dur;
+      if (p >= 1) return null;
+      const e = Easing.inOut(Easing.cubic)(p);
+      cx = it.x + (it.flyTo.x - it.x) * e;
+      cy = it.y + (it.flyTo.y - it.y) * e - 140 * Math.sin(Math.PI * e);
+      w = it.w + (it.flyTo.w - it.w) * e;
+    }
   }
   return (
     <Img
       src={staticFile(it.src)}
       style={{
         position: "absolute",
-        left: it.x - it.w / 2 + dx,
-        top: it.y,
-        width: it.w,
-        transform: `translateY(-100%) scale(${scale}) rotate(${rot}deg)`,
-        transformOrigin: origin === "50% 100%" ? "50% 100%" : "50% 50%",
+        left: cx - w / 2 + dx,
+        top: cy,
+        width: w,
+        transform: `translateY(${anchor === "bottom" ? "-100%" : "-50%"}) scale(${scale}) rotate(${rot}deg)`,
+        transformOrigin: anchor === "bottom" && anim !== "stamp" ? "50% 100%" : "50% 50%",
         opacity,
       }}
     />
   );
 };
 
+const Card: React.FC = () => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const s = spring({ frame, fps, config: { damping: 11, stiffness: 130 } });
+  return (
+    <div
+      style={{
+        position: "absolute", left: CARD.x - CARD.d / 2, top: CARD.y - CARD.d / 2,
+        width: CARD.d, height: CARD.d, borderRadius: "50%", background: COLORS.cream,
+        border: `12px solid ${COLORS.brown}`, boxShadow: `0 14px 0 ${COLORS.brown}`,
+        transform: `scale(${s})`, boxSizing: "border-box",
+      }}
+    />
+  );
+};
+
 const Dua: React.FC<{ sc: Scene }> = ({ sc }) => {
+  if (!sc.dua) return null;
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const w = sc.duaW ?? 520;
@@ -55,7 +91,7 @@ const Dua: React.FC<{ sc: Scene }> = ({ sc }) => {
   const bob = Math.sin(frame / 7) * 6;
   return (
     <Img
-      src={staticFile(sc.dua)}
+      src={staticFile(sc.dua as string)}
       style={{
         position: "absolute",
         left: x - w / 2,
@@ -118,6 +154,13 @@ const SceneView: React.FC<{ sc: Scene }> = ({ sc }) => {
   const fade = interpolate(frame, [0, 5], [0, 1], { extrapolateRight: "clamp" });
   return (
     <AbsoluteFill style={{ opacity: fade }}>
+      {sc.dim ? (
+        <>
+          <AbsoluteFill style={{ background: COLORS.cream }} />
+          <AbsoluteFill style={{ background: "rgba(0,0,0,0.5)" }} />
+          <Card />
+        </>
+      ) : null}
       {sc.items.filter((i) => i.src.includes("microwave")).map((it, k) => <ItemView key={`m${k}`} it={it} />)}
       <Dua sc={sc} />
       {sc.items.filter((i) => !i.src.includes("microwave")).map((it, k) => <ItemView key={k} it={it} />)}
