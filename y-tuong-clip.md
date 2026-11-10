@@ -10,7 +10,7 @@ Cách dùng: làm xong clip nào thì đổi `[ ]` thành `[x]`, ghi ngày và l
 | [ ] | 2 | Chỉnh nhiệt độ tủ lạnh đúng cách | "Tủ lạnh để mức mấy thì rau không đóng đá?" | Khảo sát RealHomes | Kiểm chứng mức nhiệt theo hướng dẫn hãng |
 | [ ] | 3 | Điều hòa đặt bao nhiêu độ thì đỡ tốn điện | "Tháng này tiền điện tăng gấp đôi vì thói quen này" | Tự đề xuất | **Ưu tiên làm trước** |
 | [ ] | 4 | Nồi chiên không dầu: 3 lỗi khiến món khô, cháy | "Vì sao nồi chiên không dầu nhà bạn nấu dở?" | Tự đề xuất | **Ưu tiên làm trước**, mở rộng thành series công thức |
-| [ ] | 5 | Lò vi sóng: đồ nào tuyệt đối không bỏ vào | "Đừng bỏ thứ này vào lò vi sóng, nổ đấy!" | Tự đề xuất | Kiểm chứng an toàn |
+| [ ] | 5 | Lò vi sóng: đồ nào tuyệt đối không bỏ vào | "Đừng bỏ thứ này vào lò vi sóng, nổ đấy!" | Tự đề xuất | Kiểm chứng an toàn. **Đang làm**: xem `clip-05-lo-vi-song.md` |
 | [ ] | 6 | Ổ cắm quá tải: 3 dấu hiệu sắp chập cháy | "Ổ cắm nóng hầm hập, đừng bỏ qua" | Tự đề xuất | **Ưu tiên làm trước**, kiểm chứng an toàn |
 | [ ] | 7 | Khi nào phải thay lõi lọc nước / lọc không khí | "Lõi lọc không thay, nước sạch hóa nước bẩn" | Tự đề xuất | Kiểm chứng chu kỳ thay lõi |
 | [ ] | 8 | Tin nhắn lừa đảo: 4 dấu hiệu nhận biết | "Nhận tin này thì xóa ngay, đừng bấm link" | Tự đề xuất | **Ưu tiên làm trước** |
