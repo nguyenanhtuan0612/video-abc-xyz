@@ -32,7 +32,7 @@ Mỗi cảnh một dòng:
 - Chữ trong ảnh: không nhờ AI vẽ chữ; thêm chữ ở bước dựng (CapCut/Remotion).
 
 ## Công cụ ảnh của dự án: Gemini (Nano Banana)
-Mọi prompt ảnh viết theo mẫu trong `assets/gemini-prompts.md`: một cuộc trò chuyện duy nhất, luôn dán "Style khoá", tham chiếu `assets/characters/bong_sheet.png`, nền trơn để xoá nền ở CapCut, cảnh 9:16 có chừa chỗ cho phụ đề. Bản SVG trong `assets/characters/cat/` chỉ là phương án dự phòng.
+Mọi prompt ảnh viết theo mẫu trong `assets/gemini-prompts.md`: một cuộc trò chuyện duy nhất, luôn dán "Style khoá", tham chiếu `assets/characters/dua_sheet.png`, nền trơn để xoá nền ở CapCut, cảnh 9:16 có chừa chỗ cho phụ đề. Bản SVG trong `assets/characters/cat/` chỉ là phương án dự phòng.
 
 ## Thư viện ảnh tái sử dụng (Facebook Reel 9:16, 2D đơn giản đáng yêu)
 Lưu tại `assets/` trong thư mục dự án:

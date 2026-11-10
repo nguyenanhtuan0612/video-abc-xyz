@@ -1,4 +1,4 @@
-"""Mèo mascot "Bông" - phong cách mochi: thân bánh tròn, mắt chấm, miệng ω, má hồng, viền nâu dày, đổ bóng đào.
+"""Mèo mascot "Dưa" - phong cách mochi: thân bánh tròn, mắt chấm, miệng ω, má hồng, viền nâu dày, đổ bóng đào.
 Mèo cam trắng, đủ đầu/thân/2 tay/2 chân/đuôi.  Chạy:  python build.py
 Xuất: cat_<biểu cảm>_<trang phục>[_wave].svg (đứng/ngồi)  và  cat_<biểu cảm>_lie.svg (nằm sấp)
 - Thêm trang phục: thêm vào OUTFITS (torso = áo trên thân, sleeve/pants = màu tay áo/quần, front = đồ phủ đầu/cổ).

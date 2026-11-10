@@ -1,4 +1,4 @@
-# Prompt Gemini (Nano Banana) cho mèo mascot "Bông"
+# Prompt Gemini (Nano Banana) cho mèo mascot "Dưa"
 
 Dùng **một cuộc trò chuyện duy nhất** cho cả bộ ảnh để Gemini nhớ nhân vật. Lưu mỗi ảnh ưng ý vào `assets/` ngay.
 
@@ -9,7 +9,7 @@ Dùng **một cuộc trò chuyện duy nhất** cho cả bộ ảnh để Gemini
 ```
 Use the first image as the cat's real appearance (orange and white kitten) and the second image as the art style reference. Draw a character sheet of this same cat as a cute chibi mochi cat: orange patch on top of head and tail, white face, white belly and paws, pink inner ears. Show front view, side view, back view, and 4 expressions (neutral, happy, surprised, confused). Plain solid white background, no text. Style: [STYLE KHOÁ]
 ```
-Chọn bản đẹp nhất → đặt tên `assets/characters/bong_sheet.png`. Nếu chưa ưng, nói tiếp: "make the head rounder / eyes smaller / body chubbier".
+Chọn bản đẹp nhất → đặt tên `assets/characters/dua_sheet.png`. Nếu chưa ưng, nói tiếp: "make the head rounder / eyes smaller / body chubbier".
 
 ## Bước 2 — Đổi trang phục (giữ nguyên mèo)
 ```
@@ -30,5 +30,5 @@ Vertical 9:16 illustration. Same cat, same style, [DÁNG + TRANG PHỤC]. Settin
 
 ## Mẹo
 - Gemini không xuất PNG trong suốt: dùng nền trắng/xanh lá trơn rồi xoá nền bằng CapCut ("Cutout/Xoá nền") hoặc remove.bg.
-- Khi bị lệch nhân vật: gửi lại ảnh `bong_sheet.png` kèm câu "match this cat exactly".
+- Khi bị lệch nhân vật: gửi lại ảnh `dua_sheet.png` kèm câu "match this cat exactly".
 - Tạo 3-4 biến thể rồi chọn; đừng nhờ Gemini vẽ chữ, thêm chữ ở CapCut.

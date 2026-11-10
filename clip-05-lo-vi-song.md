@@ -1,6 +1,6 @@
 # Clip 5 – Lò vi sóng: 4 thứ tuyệt đối không bỏ vào
 
-Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Bông đội mũ đầu bếp (theo `assets/style-bible.md`).
+Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Dưa đội mũ đầu bếp (theo `assets/style-bible.md`).
 
 > Mọi ý trong kịch bản đánh dấu `[CẦN KIỂM CHỨNG]` phải đối chiếu với hướng dẫn nhà sản xuất hoặc nguồn an toàn thực phẩm trước khi đọc voice.
 
@@ -8,14 +8,14 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Bông đội mũ đ
 
 | # | Giây | Hình | Voice | Chữ trên màn hình / SFX |
 |---|---|---|---|---|
-| 1 | 0-3 | Bông (chef) ngạc nhiên, đứng cạnh lò vi sóng, dấu "!" bật lên | "Đừng bỏ 4 thứ này vào lò vi sóng!" | Chữ to: "4 THỨ CẤM BỎ LÒ VI SÓNG" · SFX: ting cảnh báo |
-| 2 | 3-7 | Bông cầm bát cơm nguội, mắt tròn hứng khởi, lò bên cạnh | "Hâm đồ cho nhanh, nhưng bỏ nhầm là nổ lò đấy." | SFX: tiếng "ting" lò |
+| 1 | 0-3 | Dưa (chef) ngạc nhiên, đứng cạnh lò vi sóng, dấu "!" bật lên | "Đừng bỏ 4 thứ này vào lò vi sóng!" | Chữ to: "4 THỨ CẤM BỎ LÒ VI SÓNG" · SFX: ting cảnh báo |
+| 2 | 3-7 | Dưa cầm bát cơm nguội, mắt tròn hứng khởi, lò bên cạnh | "Hâm đồ cho nhanh, nhưng bỏ nhầm là nổ lò đấy." | SFX: tiếng "ting" lò |
 | 3 | 7-14 | Cận: giấy bạc và cái thìa cạnh lò, tia lửa nhỏ, dấu ✗ | "Một: đồ kim loại. Giấy bạc, thìa, hộp có viền vàng. Sẽ phát tia lửa." | Chữ: "1. KIM LOẠI" · SFX: bzzt, ✗ stamp |
 | 4 | 14-21 | Quả trứng nguyên vỏ trong lò, vết nứt, dấu ✗ | "Hai: trứng nguyên vỏ. Hơi nước dồn lại, nổ tung." | Chữ: "2. TRỨNG NGUYÊN VỎ" · SFX: pop |
 | 5 | 21-28 | Hộp/chai đậy kín nắp, nắp bật tung, dấu ✗ | "Ba: hộp, chai đậy kín. Hơi nóng không thoát được, bật nắp văng ra." `[CẦN KIỂM CHỨNG]` | Chữ: "3. ĐẬY KÍN NẮP" · SFX: pop |
-| 6 | 28-35 | Hộp nhựa méo biến dạng, Bông soi đáy hộp tìm ký hiệu | "Bốn: hộp nhựa không ghi dùng được cho lò vi sóng. Nhựa có thể chảy, biến dạng." `[CẦN KIỂM CHỨNG]` | Chữ: "4. NHỰA KHÔNG CÓ KÝ HIỆU" · SFX: ✗ stamp |
-| 7 | 35-40 | Bông cười, bê bát sứ đậy hờ đĩa, dấu ✓ | "Cứ dùng bát sứ, thủy tinh chịu nhiệt, đậy hờ là yên tâm." | Chữ: "DÙNG BÁT SỨ / THỦY TINH" · SFX: ding |
-| 8 | 40-43 | Bông vẫy tay, hai tay giơ như "lưu lại" | "Lưu lại kẻo quên nhé!" | Chữ: "LƯU LẠI" |
+| 6 | 28-35 | Hộp nhựa méo biến dạng, Dưa soi đáy hộp tìm ký hiệu | "Bốn: hộp nhựa không ghi dùng được cho lò vi sóng. Nhựa có thể chảy, biến dạng." `[CẦN KIỂM CHỨNG]` | Chữ: "4. NHỰA KHÔNG CÓ KÝ HIỆU" · SFX: ✗ stamp |
+| 7 | 35-40 | Dưa cười, bê bát sứ đậy hờ đĩa, dấu ✓ | "Cứ dùng bát sứ, thủy tinh chịu nhiệt, đậy hờ là yên tâm." | Chữ: "DÙNG BÁT SỨ / THỦY TINH" · SFX: ding |
+| 8 | 40-43 | Dưa vẫy tay, hai tay giơ như "lưu lại" | "Lưu lại kẻo quên nhé!" | Chữ: "LƯU LẠI" |
 
 **Voice ước tính:** ~100 từ ≈ 30-35s đọc, vừa đủ cho 43s kèm khoảng nghỉ giữa các cảnh.
 
@@ -32,9 +32,9 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Bông đội mũ đ
 
 | Loại | Ảnh | Trạng thái | Dùng ở cảnh |
 |---|---|---|---|
-| Nhân vật | Bông chef – ngạc nhiên | Có SVG `cat_surprised_chef.svg` | 1, 2 |
-| Nhân vật | Bông chef – vui, vẫy tay | Có SVG `cat_happy_chef_wave.svg` | 7, 8 |
-| Nhân vật | Bông chef – cầm bát, soi đáy hộp | **Cần tạo** (Gemini) | 2, 6 |
+| Nhân vật | Dưa chef – ngạc nhiên | Có SVG `cat_surprised_chef.svg` | 1, 2 |
+| Nhân vật | Dưa chef – vui, vẫy tay | Có SVG `cat_happy_chef_wave.svg` | 7, 8 |
+| Nhân vật | Dưa chef – cầm bát, soi đáy hộp | **Cần tạo** (Gemini) | 2, 6 |
 | Nền | Bếp đơn giản (kệ + tường kem) | **Cần tạo** | 1-8 |
 | Đạo cụ | Lò vi sóng (đóng, mở) | **Cần tạo** | 1-8 |
 | Đạo cụ | Giấy bạc, thìa, hộp viền vàng | **Cần tạo** | 3 |
@@ -46,13 +46,13 @@ Khung 1080x1920 (Reel 9:16), dài ~40-45s. Nhân vật: mèo Bông đội mũ đ
 
 ## 3. Quy trình làm (theo thứ tự)
 
-1. **Khoá nhân vật.** Kiểm tra `assets/characters/`. Chưa có `bong_sheet.png` (skill tham chiếu file này), nên dùng `base_mascot.png` làm ảnh tham chiếu, hoặc tạo lại character sheet theo Bước 1 trong `assets/gemini-prompts.md`.
+1. **Khoá nhân vật.** Kiểm tra `assets/characters/`. Chưa có `dua_sheet.png` (skill tham chiếu file này), nên dùng `base_mascot.png` làm ảnh tham chiếu, hoặc tạo lại character sheet theo Bước 1 trong `assets/gemini-prompts.md`.
 2. **Tạo nền bếp + lò vi sóng** (1 lần, dùng lại cho cả clip và series).
 3. **Tạo đạo cụ** từng món trên nền trơn, tách nền bằng `assets/remove_bg.py`.
 4. **Tạo UI** (✗, ✓, tia lửa) bằng SVG tự vẽ, không cần AI.
-5. **Ghép cảnh** theo bảng trên: nền + Bông + đạo cụ + UI. Chừa trống ~15% trên, ~25% dưới cho chữ.
+5. **Ghép cảnh** theo bảng trên: nền + Dưa + đạo cụ + UI. Chừa trống ~15% trên, ~25% dưới cho chữ.
 6. **Làm voice**: dùng skill `am-thanh-phu-de-xuat-file`, giọng nữ ấm, tốc độ vừa.
-7. **Animation đơn giản**: pop-in đạo cụ (scale 0 → 1.1 → 1), lò rung nhẹ ở cảnh 3-5, dấu ✗ đóng dấu, Bông nhún nhẹ khi nói. Làm bằng CapCut hoặc Remotion.
+7. **Animation đơn giản**: pop-in đạo cụ (scale 0 → 1.1 → 1), lò rung nhẹ ở cảnh 3-5, dấu ✗ đóng dấu, Dưa nhún nhẹ khi nói. Làm bằng CapCut hoặc Remotion.
 8. **Nhạc nền**: nhẹ, vui, không lời (skill `nhac-nen-suno`), hạ nhỏ hơn voice.
 9. **Dựng + xuất**: ghép voice, SFX, chữ; phụ đề theo voice; xuất 1080x1920 MP4.
 
