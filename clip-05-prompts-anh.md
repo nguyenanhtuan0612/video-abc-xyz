@@ -99,4 +99,4 @@ A cute flat 2D icon of [BIỂU TƯỢNG], thick dark-brown outline, soft pastel 
 - [x] A4 `dua_chef_ceramic.png`
 - [x] B1 `bg_bep.png`
 - [x] C: đã tách vào `assets/props/` (microwave_closed, microwave_open, foil, spoon, bowl_goldrim, egg_whole, egg_cracked, box_sealed, box_popped, box_warped, bowl_ceramic, rice_bowl)
-- [ ] E: bảng biểu tượng (✗, ✓, tia lửa, bùm, dấu !, hơi nước) → `assets/ui/`
+- [x] E: bảng biểu tượng (✗, ✓, tia lửa, bùm, dấu !, hơi nước) → `assets/ui/`
